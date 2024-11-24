@@ -1,5 +1,5 @@
 <h1 align="center">Hand Sign Recognition</h1>
-<img src="[https://github.com](https://github.com/PathadonAougsk/hand-sign-recognition/blob/main/Assets/Header.png)">
+<img src="https://github.com/PathadonAougsk/hand-sign-recognition/blob/main/Assets/Header.png">
 
 # Hi! 👋
 Hand Sign Recognition is a prototype proof of concept..? I must say! but well atleast it work.
