@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Hand Translator</title>
+
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"
+        integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/async/3.2.0/async.min.js"
+        integrity="sha512-6K6+H87tLdCWvY5ml9ZQXLRlPlDEt8uXmtELhuJRgFyEDv6JvndWHg3jadJuBVGPEhhA2AAt+ROMC2V7EvTIWw=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/inferencejs"></script>
+
+    <!-- Styles and Scripts -->
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
+</head>
+
+<body class="loading">
+    <div id="banner">
+        <h1 id="icons">⌤</h1>
+        <h1 id="title">Sign Hand Language Translator</h1>
+    </div>
+
+    <div id="media-box">
+        <div id="video-box">
+            <video id="video" autoplay muted playsinline></video>
+        </div>
+        <div id="translator-box">
+            <p id="result">Detection Result Will Appear Here</p>
+        </div>
+    </div>
+    
+    <div id="disclaimer" style="text-align: center; padding: 20px; background-color: #333; color: #fff; margin-top: 30px; border-radius: 5px; font-size: 0.7em;">
+        <p><strong>Disclaimer:</strong> This tool is for educational purposes only. The accuracy of the hand language recognition may vary based on various factors such as lighting and video quality. The developers are not responsible for any incorrect interpretations or errors.</p>
+    </div>
+</body>
+</html>
